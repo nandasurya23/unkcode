@@ -98,7 +98,7 @@ export default function Header() {
         <div className="md:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className={`text-white ${isScrolled ? "text-gray-700" : "text-white"}`}
+            className={`text-gray-700 ${isScrolled ? "text-gray-700" : "text-white"}`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
