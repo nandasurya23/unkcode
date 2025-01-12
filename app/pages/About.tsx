@@ -2,7 +2,7 @@ export default function About() {
     return (
         <div className="min-h-screen bg-gradient-to-r from-gray-300 via-gray-500 to-gray-700 flex flex-col items-center justify-center px-6 py-12">
             <div className="max-w-5xl bg-white shadow-2xl rounded-3xl p-10 md:p-16 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-                <h1 className="text-5xl font-extrabold text-gray-800 mb-8 text-center md:text-6xl hover:text-teal-600 transition-all duration-300">About Unckode</h1>
+                <h1 className="text-3xl font-extrabold text-gray-800 mb-8 text-center md:text-6xl hover:text-teal-600 transition-all duration-300">About Unckode</h1>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8 text-center md:text-xl">
                     At Unckode, we are a cutting-edge digital agency committed to helping businesses thrive in the digital era.
                     Our focus is on delivering creative, innovative, and results-driven solutions tailored to meet our clients&apos; unique needs.

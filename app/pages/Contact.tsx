@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <div className="min-h-screen bg-gradient-to-r from-blue-400 via-blue-500 to-blue-700 flex flex-col items-center justify-center px-6 py-12">
             <div className="max-w-5xl bg-white shadow-2xl rounded-3xl p-10 md:p-16 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-                <h1 className="text-5xl font-extrabold text-gray-800 mb-8 text-center md:text-6xl hover:text-teal-600 transition-all duration-300">Contact Us</h1>
+                <h1 className="text-3xl font-extrabold text-gray-800 mb-8 text-center md:text-6xl hover:text-teal-600 transition-all duration-300">Contact Us</h1>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8 text-center md:text-xl">
                     We’d love to hear from you! Whether you have a question, suggestion, or want to discuss your next project, feel free to reach out to us.
                 </p>

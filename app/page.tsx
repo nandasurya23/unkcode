@@ -1,15 +1,16 @@
 import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css"; // Import CSS Font Awesome
 config.autoAddCss = false
-import HeroSection from "./components/HeroSection";
-import ServiceCard from "./components/ServiceCard";
+import HeroSection from "./pages/HeroSection";
+import ServiceCard from "./pages/ServiceCard";
 import { services } from "./data/services";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import TeamPage from "./pages/Team";
+import ProjectsPage from "./pages/Projects";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <HeroSection />
       <section className="py-12">
         <h2 className="text-3xl font-bold text-center mb-6">Our Services</h2>
@@ -20,7 +21,9 @@ export default function Home() {
         </div>
       </section>
       <About/>
+      <ProjectsPage/>
+      <TeamPage/>
       <Contact/>
-    </main>
+    </>
   );
 }
