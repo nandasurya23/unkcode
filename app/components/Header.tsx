@@ -68,6 +68,16 @@ export default function Header() {
                   isScrolled ? "text-gray-700" : "text-white"
                 }`}
               >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className={`hover:text-blue-500 transition ${
+                  isScrolled ? "text-gray-700" : "text-white"
+                }`}
+              >
                 About
               </a>
             </li>
@@ -78,7 +88,7 @@ export default function Header() {
                   isScrolled ? "text-gray-700" : "text-white"
                 }`}
               >
-                Services
+                Projects
               </a>
             </li>
             <li>
@@ -155,12 +165,17 @@ export default function Header() {
           </li>
           <li>
             <a href="#" className="block hover:text-blue-500 transition">
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#" className="block hover:text-blue-500 transition">
               About
             </a>
           </li>
           <li>
             <a href="#" className="block hover:text-blue-500 transition">
-              Services
+              Projects
             </a>
           </li>
           <li>
